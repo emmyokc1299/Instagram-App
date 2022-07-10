@@ -1,0 +1,103 @@
+.postEdit{
+    width: 60vw;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+}
+
+.postEdit_header{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+
+.postEdit_done{
+    color: rgb(0, 87, 128);
+    cursor: pointer;
+}
+
+.postEdit_body{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.postEdit_files{
+    height: 100%;
+    width: 470px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+.postEdit_files::-webkit-scrollbar {
+    display: none;
+  }
+
+.edit_videoplayer{
+    width: 470px;
+    height: 100%;
+}
+
+.edit_image{
+    width: 100%;
+    height: 100%;
+}
+
+.edit_arrowLeft{
+    position: sticky;
+    background-color: orange;
+    height: 20px;
+    width: 50px;
+    border-radius: 50%;
+    top: 50%;
+    left: 30px;
+}
+
+
+.edit_arrowRight{
+    position: sticky;  
+    background-color: orange;
+    height: 20px;
+    width: 50px;
+    border-radius: 50%;
+    top: 50%;
+    right: 30px;
+}
+
+.postEdit_message{
+    height: 100%;
+    width: calc(100% - 470px);
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    padding-top: 18px;
+}
+.postEdit_message_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.postEdit_profile_pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.postEdit_message_caption{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-top: 16px;
+}

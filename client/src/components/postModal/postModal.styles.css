@@ -1,0 +1,25 @@
+.postOptions{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.postOption{
+    height: 9vh;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete_post{
+    color: red;
+}
+
+.cancel_post_option{
+    border-bottom: none;
+}

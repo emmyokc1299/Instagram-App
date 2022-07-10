@@ -1,0 +1,10 @@
+.app{
+  /* background-color: rgb(251, 250, 252); */
+  /* height: 200vh; */
+  position: relative;
+  margin-left: 0px ;
+}
+
+*{
+  box-sizing: border-box;
+}

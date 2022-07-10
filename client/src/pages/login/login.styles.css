@@ -1,0 +1,124 @@
+.login{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 39%;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.login_form{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_image{
+    width: 200px;
+    height: 30px;
+    margin-top: 38px;
+}
+
+.login_identity, .login_password{
+    outline: none;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    margin-top: 30px;
+    width: 70%;
+    min-height: 30px;
+    font-size: 11px;
+    background-color: rgb(251, 250, 252);
+}
+
+.login_password:focus  {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+ 
+.login_password{
+    margin-top: 10px;
+}
+
+.login_button{
+    width: 70%;
+    min-height: 32px;
+    background-color: rgb(10, 152, 218);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    /* padding-top: 5px; */
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+
+.or::before{
+    content: '—————';
+    border-bottom: 1px;
+    margin-right: 5px;
+}
+
+.or{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.or::after{
+    content: '—————';
+    margin-left: 5px;
+}
+
+.facebook_login{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.facebook_login > p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(14, 14, 134);
+}
+
+.forgot_password{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(14, 14, 134);
+    margin-top: 30px;
+}
+
+.to_signup{
+    margin-top: 15px;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.to_signup > p{
+    margin-left: 10px;
+    color: rgb(10, 152, 218);
+
+}

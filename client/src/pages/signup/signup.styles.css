@@ -1,0 +1,134 @@
+.signup{
+    width: 300px;
+    height: 700px;
+    /* background-color: white; */
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 39%;
+}
+
+.signup_form{
+    width: 100%;
+    height: 490px;
+    background-color: white;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.signup_image{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.signup_title{
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: grey;
+}
+
+.signup_identity, .signup_password, .signup_fullname, .signup_username{
+    outline: none;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    margin-top: 16px;
+    width: 70%;
+    height: 25px;
+    font-size: 11px;
+    background-color: rgb(251, 250, 252);
+}
+
+.signup_password:focus  {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.facebook_signup{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 28px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    background-color: rgb(10, 152, 218);
+    border-radius: 3px;
+}
+
+.facebook_signup > p{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.signup_button{
+    width: 70%;
+    min-height: 32px;
+    background-color: rgb(10, 152, 218);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    /* padding-top: 5px; */
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+.signup_terms{
+    width: 80%;
+    font-size: 10px;
+    color: grey;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.to_login{
+    margin-top: 15px;
+    border: 2px solid rgb(193, 191, 194);
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.to_login > p{
+    margin-left: 10px;
+    color: rgb(10, 152, 218);
+
+}
+
+.or::before{
+    content: '—————';
+    border-bottom: 1px;
+    margin-right: 5px;
+}
+
+.or{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.or::after{
+    content: '—————';
+    margin-left: 5px;
+}

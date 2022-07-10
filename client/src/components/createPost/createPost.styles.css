@@ -1,0 +1,246 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    background-color: #69686869;
+    margin-top: 0px;
+    position: relative;
+}
+
+.modal_header{
+    width:57%;
+    height: 30px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    transform: translateX(20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.modal_header_share{
+    width: 668px;
+    height: 30px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    transform: translateX(90px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+}
+
+.modal_header_share > p{
+    margin-right: 20px;
+    color: rgb(8, 79, 145);
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+}
+
+.modal_body{
+    height: 430px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+
+.modal_files{
+    height: 100%;
+    width: 58.2%;
+    /* border: 1px solid black; */
+    z-index: 1;
+    background-color: white;
+    transform: translateX(20%);
+
+}
+
+.modal_files_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_files_intro>p{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+}
+
+.file_icons{
+    margin-top: 150px;
+    position: relative;
+}
+
+.photo_icon{
+transform: rotate(-5deg);
+}
+
+.play_icon{
+transform: rotate(30deg);
+}
+
+.modal_files_intro > p{
+    margin-top: 20px;
+}
+
+.enter_file{
+    background-color: teal;
+    padding: 5px 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    margin-top: 20px;
+}
+
+.modal_files_outro{
+    display: flex;
+}
+
+.modal_header_next{
+    width:57%;
+    height: 30px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    transform: translateX(20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 600;
+}
+.modal_header_next > p{
+    margin-right: 20px;
+}
+
+
+.modal_message{
+    height: 100%;
+    width: 240px;
+    /* border: 1px solid black; */
+    transform: translateX(38%);
+    /* background-color: azure; */
+    z-index: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+}
+
+.modal_message_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.modal_profile_pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.modal_message_profile > p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.modal_message_caption{
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+    /* text-decoration: none; */
+}
+
+
+
+
+
+
+
+
+
+
+.the_postContainer{
+    width: 466px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    position: relative;
+    overflow-x: scroll;
+}
+
+.the_postContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .the_videoplayer{
+      width: 100%;
+      height: 100%;
+  }
+
+.the_image{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.the_arrowRight{
+    position: sticky;
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+}
+
+.the_arrowLeft{
+    position: sticky;
+    background-color: orange;
+    height: 20px;
+    width: 50px;
+    border-radius: 50%;
+    top: 50%;
+    left: 30px;
+}
+
+.the_arrowRight{
+    position: sticky;
+    background-color: orange;
+    height: 20px;
+    width: 50px;
+    border-radius: 50%;
+    top: 50%;
+    right: 30px;
+}
+
+
+.cancel_post_modal{
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}

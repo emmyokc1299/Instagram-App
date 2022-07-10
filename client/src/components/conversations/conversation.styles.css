@@ -1,0 +1,32 @@
+.conversation{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.user_image{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+.friend_username{
+    font-size: 16px;
+    margin-left: 9px;
+    /* border: 1px solid black; */
+    width: 70%;
+
+}
+.is_online{
+    width: 8px;
+    height: 8px;
+    border-radius: 60%;
+    background-color: rgb(26, 144, 199);
+    /* border: 1px solid black; */
+
+}

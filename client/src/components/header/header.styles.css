@@ -1,0 +1,99 @@
+.header{
+    height: 54px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo_img{
+    object-fit: contain;
+    width: 100px;
+    height: 50px;
+}
+.logo, .search, .nav{
+    flex: 1;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.search{
+    padding-top: 7px;
+    
+}
+
+.search_bar{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(251, 250, 252);
+    display: flex;
+    flex-direction: row;
+    margin-left: 14px;
+    border-radius: 8px;
+}
+
+.search_bar > span {
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-top: 8px;
+}
+
+.search_bar > p{
+    margin-top: 8px;
+}
+
+.links{
+    margin-right: 23px;
+}
+
+.rotate{
+    transform: rotate(55deg);
+    margin-top: -3px;
+    position: relative;
+}
+
+.red_dot{
+    width: 16px;
+    height: 16px;
+    background-color: rgb(238, 65, 65);
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    right: 334px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+.imageProfile{
+    width: 24px;
+    height: 24px;
+    /* object-fit: contain; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

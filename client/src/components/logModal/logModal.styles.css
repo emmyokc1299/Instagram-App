@@ -1,0 +1,26 @@
+.log_out{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.not_logout{
+    flex: 1;
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.logout{
+    flex: 1;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    font-weight: 600;
+    padding-left: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+.side{
+    position: fixed;
+    width: 280px;
+    /* height: 100px; */
+    top: 110px;
+    right: 180px;
+    /* border: 1px solid black; */
+}
+
+.side_profile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.side_profile_pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    flex: 1;
+}
+
+.side_names{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    flex: 3;
+}
+
+.side_username{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.side_name{
+    font-size: 13px;
+    color: grey;
+    
+}
+.side_switch{
+    flex: 1;
+    font-size: 12px;
+    font: 600;
+    margin-top: 17px;
+    color: rgb(29, 122, 199);
+}
+.side_suggestions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.side_suggestions_text{
+    font-size: 13px;
+    color: grey;
+    flex: 4
+}
+.side_see_all{
+    flex: 1;
+    font-size: 12px;
+    font: 600;
+    /* margin-top: 17px; */
+}
+
+.side_other{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.other_profile_pic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.other_names{
+    flex: 3;
+    margin-left: 10px;
+
+}
+.other_username{
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.other_name{
+    font-size: 11px;
+    color: grey;
+}
+.other_follow{
+    flex: .8;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(29, 122, 199);
+    cursor: pointer;
+    /* text-align: center; */
+}
